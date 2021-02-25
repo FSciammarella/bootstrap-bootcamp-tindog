@@ -1,0 +1,151 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    ;
+}
+
+/* Navigation */
+.navbar {
+    padding-left: 0;
+    padding-bottom: 4.5rem;
+    padding-right: 1rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2.75rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: light;
+}
+
+/* Title Section */
+#title {
+    background-color: #ff4c68;
+    /* height: 40rem; */
+    overflow: hidden;
+    /* height: 100vh; */
+}
+
+h1.title {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: azure;
+    margin-bottom: 2.5rem;
+    font-weight: bold;
+}
+
+.mock-pic {
+    transform: rotate(25deg) translateX(20%);
+    width: 60%;
+    margin-bottom: -8.5rem;
+}
+
+.dl-button {
+    margin: 5% 3% 10% 0;
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feat-icon {
+    color: #ef8172;
+    font-size: 3rem;
+    clear: both;
+    padding-bottom: 3%;
+    /* padding-top: 10%; */
+}
+
+.feat-icon:hover {
+    color: #ff4c68;
+}
+
+.feat-container {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    /* margin-bottom: 5%; */
+}
+
+.feat-container>h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feat-container>p {
+    color: #8f8f8f;
+    font-size: 1.2rem;
+}
+
+/* Testimonials */
+#testimonials {
+    color: white;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    list-style: 1.5;
+}
+
+.img-testimonial {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+/* Press Section */
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+#press>img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* cta+footer */
+#cta,
+#footer {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+        /* padding: 5% 7%; */
+}
+#cta{
+    padding-top: 5%;
+}
+#footer{
+    padding-bottom: 2%;
+}
+h3{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+#footer>p{
+    font-size: 1rem;
+    font-weight: lighter;
+}
