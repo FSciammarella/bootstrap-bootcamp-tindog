@@ -167,13 +167,78 @@ h3{
     padding: 2% 1%;
 }
 
-@media (max-width: 1028px){
+@media (max-width: 1023px){
+
+    .navbar-brand{
+        font-size: 4rem;
+    }
+    .navbar-toggler{
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    .nav-item{
+        text-align: right;
+    }
+    .nav-link{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .container-fluid, #features{
+        padding: 5% 5%;
+    }
+    .dl-button{
+        margin: 5% 2% 5% 0;
+    }
     #title{
         text-align: center;
     }
     .mock-pic{
-        width: 90%;
+        width: 80%;
         transform: rotate(0);
-        margin-bottom: 2rem;
+        margin-top: 2rem;
+        margin-bottom: -5rem;
     }
+    .dl-button{
+        border-radius: 1rem;
+        font-size: 3rem;
+        padding: 2% 3%;
+    }
+    .card{
+        font-size: 2rem;
+    }
+    .card-body>h2{
+font-size:  5rem;
+    }
+    .sign-up-btn{
+        font-size: 3rem;
+        border-radius: 1rem;
+    }
+    .feat-container>h3{
+        font-size: 4rem;
+    }
+    .feat-container>p{
+        font-size: 3rem;
+    }
+    .feat-icon{
+        font-size: 8rem;
+        padding-top: 10%;
+    }
+    #pricing>h2{
+        font-size: 5rem;
+        padding-bottom: 3%;
+    }
+    #pricing p{
+        font-size: 2.25rem;
+        padding-bottom: 5%;
+    }
+    .img-testimonial{
+        width: 20%;
+    }
+    #testimonials em{
+        font-size: 2rem;
+    }
+    #footer{
+        font-size: 2rem;
+    }
+
 }
